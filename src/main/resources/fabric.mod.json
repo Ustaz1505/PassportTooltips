@@ -8,7 +8,7 @@
   "contact": {
     "repo": "https://github.com/Ustaz1505/PassportTooltips"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/passporttooltips/icon.png",
   "environment": "client",
   "entrypoints": {
