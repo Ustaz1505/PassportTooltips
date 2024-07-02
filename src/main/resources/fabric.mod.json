@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "passporttooltips",
+  "version": "${version}",
+  "name": "PassportTooltips",
+  "description": "Простой мод, облегчающий жизнь работникам Министерства Юстиции СП",
+  "authors": ["Ustaz1505"],
+  "contact": {
+    "repo": "https://github.com/Ustaz1505/PassportTooltips"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/passporttooltips/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.ustaz1505.passporttooltips.client.PassportTooltipsClient"
+    ],
+    "main": [
+      "com.ustaz1505.passporttooltips.PassportTooltips"
+    ]
+  },
+  "mixins": [
+    "passporttooltips.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
