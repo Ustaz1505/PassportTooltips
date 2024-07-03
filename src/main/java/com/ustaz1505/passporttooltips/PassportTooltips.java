@@ -86,7 +86,7 @@ public class PassportTooltips implements ModInitializer {
         Text page1_text;
         if (Objects.equals(stack.getItem().toString(),"written_book")) {
             try {
-                page1_text = Text.Serializer.fromJson(getPages(stack).getString(1));
+                page1_text = Text.Serialization.fromJson(getPages(stack).getString(1));
             } catch (Exception e) {
                 if (IS_DEBUG) { log.info("JSON Parse error!"); }
                 return;
